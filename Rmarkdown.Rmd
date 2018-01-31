@@ -1,6 +1,7 @@
 ---
 title: "Introduccion Rmarkdown"
 author: "Semillero de R"
+date: "Escuela de estadistica "
 output: 
   beamer_presentation:
           theme: "AnnArbor"
@@ -28,7 +29,11 @@ La aplicabilidad de R se puede extender mediante paquetes de funciones. La distr
 
 ## ¿Que es Markdown?
 
+![](M.jpg)
 
+## Markdown
+
+Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.
 
 ## R Markdown
 
@@ -36,11 +41,7 @@ This is an R Markdown presentation. Markdown is a simple formatting syntax for a
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
-## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
 
 ## Slide with R Output
 
