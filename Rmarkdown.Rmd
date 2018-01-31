@@ -57,7 +57,16 @@ Se debe tener instalado los siguientes programas:
 - Conocimientos en markdown.
 - MikTex (si se desea crear documentos en formato PDF)
 
+## Instalacion 
 
+### R
 
+https://cran.r-project.org/mirrors.html
 
+### R studio
 
+https://www.rstudio.com/products/rstudio/download/
+
+###MikTex
+
+https://miktex.org/download
