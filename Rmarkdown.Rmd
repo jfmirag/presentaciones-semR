@@ -1,7 +1,6 @@
 ---
 title: "Introduccion Rmarkdown"
 author: "Semillero de R"
-date: "29 January 2018"
 output: 
   beamer_presentation:
           theme: "AnnArbor"
@@ -13,13 +12,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 ## ¿Qué es R?
+![](R.jpg)
 
-imagen
+## Lenguaje de programacion R
 
-R es un conjunto integrado de funciones para manejo de datos, cálculo y gráficos
-
-
-## caracteristicas y ventajas del lenguaje de la programacion en R
+R es un conjunto integrado de funciones para manejo de datos, cálculo y gráficos.
 
 - Comandos para manejar y almacenar conjuntos de datos
 - Operadores para llevar a cabo cálculos con vectores y matrices
@@ -29,7 +26,7 @@ R es un conjunto integrado de funciones para manejo de datos, cálculo y gráficos
 
 La aplicabilidad de R se puede extender mediante paquetes de funciones. La distribución básica contiene aproximadamente 25 paquetes.
 
-## ¿que es Markdown?
+## ¿Que es Markdown?
 
 
 
