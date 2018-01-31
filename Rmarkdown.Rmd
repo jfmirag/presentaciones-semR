@@ -47,6 +47,12 @@ R Markdown es un formato que permite una fácil creación de documentos, presentac
 
 R Markdown admite docenas de formatos de salida estáticos y dinámicos, incluidos HTML, PDF, MS Word, Beamer, diapositivas HTML5, folletos al estilo Tufte, libros, paneles, aplicaciones brillantes, artículos científicos, sitios web y más.
 
+## R Markdowk (3)
+
+Un documento de R Markdown está escrito en markdown y contiene fragmentos de código R incrustado, como el documento a continuación.
+
+![](img1.jpg)
+
 ## Requerimientos
 
 Se debe tener instalado los siguientes programas:
@@ -65,7 +71,9 @@ https://cran.r-project.org/mirrors.html
 
 ### R studio
 
-https://www.rstudio.com/products/rstudio/download/
+- https://www.rstudio.com/products/rstudio/download/
+
+- install.packages("rmarkdown")
 
 ###MikTex
 
