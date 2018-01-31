@@ -35,24 +35,29 @@ La aplicabilidad de R se puede extender mediante paquetes de funciones. La distr
 
 Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.
 
-## R Markdown
+## ¿Qué es R Markdowk?
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+![](RM.jpg)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+## R Markdowk (1)
+
+R Markdown es un formato que permite una fácil creación de documentos, presentaciones dinámicas y informes de R. Markdown es un formato de sintaxis simple para crear documentos en HTML, PDF, y Word.
+
+## R Markdowk (2)
+
+R Markdown admite docenas de formatos de salida estáticos y dinámicos, incluidos HTML, PDF, MS Word, Beamer, diapositivas HTML5, folletos al estilo Tufte, libros, paneles, aplicaciones brillantes, artículos científicos, sitios web y más.
+
+## Requerimientos
+
+Se debe tener instalado los siguientes programas:
+
+- La versión mas reciente de R.
+- RStudio.
+- Instalar el paquete knitr, rmarkdown.
+- Conocimientos en markdown.
+- MikTex (si se desea crear documentos en formato PDF)
 
 
 
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
 
 
