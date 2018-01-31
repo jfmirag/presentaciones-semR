@@ -1,7 +1,7 @@
 ---
-title: "Introduccion Rmarkdown"
+title: "Introducción Rmarkdown"
 author: "Semillero de R"
-date: "Escuela de estadistica "
+date: "Escuela de estadística "
 output: 
   beamer_presentation:
           theme: "AnnArbor"
@@ -53,17 +53,30 @@ Un documento de R Markdown está escrito en markdown y contiene fragmentos de cód
 
 ![](img1.jpg)
 
+## R Markdowk (4)
+
+Se puede transformar un archivo R Markdown de dos maneras:
+
+1. knit (tejer): puede tejer el archivo. El paquete rmarkdown llamará al paquete knitr. knitr ejecutará cada fragmento de código R en el documento y anexará los resultados del código al documento junto al fragmento de código. Este flujo de trabajo ahorra tiempo y facilita informes reproducibles.
+
+2. convert (convertir): Puede convertir el archivo. El paquete rmarkdown usará el programa pandoc para transformar el archivo a un formato nuevo. Por ejemplo, puede convertir su archivo .Rmd en un archivo HTML, PDF o Microsoft Word. Incluso puede convertir el archivo en una presentación de diapositivas HTML5 o PDF. rmarkdown conservará el texto, los resultados del código y el formato contenidos en su archivo .Rmd original
+
+## Tutoriales
+
+- https://www.youtube.com/watch?v=OrYLHgjuD3U
+- https://www.youtube.com/watch?v=YXSp6VfZaUk
+
 ## Requerimientos
 
 Se debe tener instalado los siguientes programas:
 
-- La versión mas reciente de R.
+- La versión más reciente de R.
 - RStudio.
 - Instalar el paquete knitr, rmarkdown.
 - Conocimientos en markdown.
 - MikTex (si se desea crear documentos en formato PDF)
 
-## Instalacion 
+## Instalación 
 
 ### R
 
@@ -78,3 +91,15 @@ https://cran.r-project.org/mirrors.html
 ###MikTex
 
 https://miktex.org/download
+
+## Cibergrafia
+
+http://rpubs.com/joser/introduccionR
+
+http://blog.datatons.com/2016/04/08/que-es-lenguaje-programacion-r/
+
+https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo
+
+https://rstudio-pubs-static.s3.amazonaws.com/169221_63fd9f5f6c71491fbbfe42ed298b3c31.html
+
+http://rmarkdown.rstudio.com/articles_intro.html
