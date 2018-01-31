@@ -1,0 +1,60 @@
+---
+title: "Introduccion Rmarkdown"
+author: "Semillero de R"
+date: "29 January 2018"
+output: 
+  beamer_presentation:
+          theme: "AnnArbor"
+          colortheme: "dolphin"
+          fonttheme: "structurebold"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## ¿Qué es R?
+
+imagen
+
+R es un conjunto integrado de funciones para manejo de datos, cálculo y gráficos
+
+
+## caracteristicas y ventajas del lenguaje de la programacion en R
+
+- Comandos para manejar y almacenar conjuntos de datos
+- Operadores para llevar a cabo cálculos con vectores y matrices
+- Comandos para llevar a cabo diversos análisis de datos
+- Comandos para gráficos
+- Un lenguaje de programación especialmente adaptado a cálculos estadísticos
+
+La aplicabilidad de R se puede extender mediante paquetes de funciones. La distribución básica contiene aproximadamente 25 paquetes.
+
+## ¿que es Markdown?
+
+
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+
